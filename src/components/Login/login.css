@@ -1,0 +1,15 @@
+label {
+  color: white;
+}
+
+.Loginbox {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 20%;
+  margin: auto auto;
+}
+
+.Loginitems {
+  margin: 10px 0;
+}
