@@ -1,14 +1,14 @@
 header {
-  background-image: url(../images/carServise.gif),url(../images/NitK.png),
+  background-image: url(../images/carServise.gif),
     url(../images/paperbackground.jpeg);
   height: 225px;
   width: 100%;
   opacity: 1;
-  background-position: right bottom, left top ,right top;
-  background-repeat: no-repeat, no-repeat,repeat;
+  background-position: right bottom, right top;
+  background-repeat: no-repeat, repeat;
   animation: backSize 2s;
   border-radius: 0 0 0 50%;
-  background-size: 23% 70%, 5% 25%,auto;
+  background-size: 23% 70%, auto;
 }
 
 button {
@@ -52,4 +52,9 @@ div.box {
   to {
     border-radius: 0 0 0 50%;
   }
+}
+.logo{
+
+  height: 100px;
+  padding: 10px;
 }

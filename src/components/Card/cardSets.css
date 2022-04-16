@@ -1,0 +1,9 @@
+.Cardsetsbox {
+    display: flex;
+  margin: auto;
+  flex-direction: row;
+  margin: 50px 50px;
+}
+.Cardsetsboxitems{
+    margin: 25px 25px;
+}

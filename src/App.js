@@ -4,6 +4,7 @@ import Header  from './components/header';
 import Login from './components/Login/login';
 import SignUp from './components/SignUP/signUP'
 import BuyerSignup from './components/SignUP/buyerSignup';
+import Card from './components/Card/cardSets'
 function App() {
   return (
     
@@ -11,7 +12,7 @@ function App() {
     <BrowserRouter>
      <Header/>
     <Routes>
-      <Route path="/" element={<h1>Wellcome To Car Service</h1>}></Route>
+      <Route path="/" element={<Card/>}></Route>
       <Route path="/login" element={<Login/>}></Route>
       <Route path="/signup" element={<SignUp/>}></Route>
       <Route path="/signup/buyer" element={<BuyerSignup/>}/>
